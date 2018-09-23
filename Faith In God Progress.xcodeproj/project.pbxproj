@@ -14,7 +14,6 @@
 		5E40766A215856FB004202E5 /* Faith_In_God_ProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E407669215856FB004202E5 /* Faith_In_God_ProgressTests.swift */; };
 		5E407675215856FB004202E5 /* Faith_In_God_ProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E407674215856FB004202E5 /* Faith_In_God_ProgressUITests.swift */; };
 		5E407683215857EB004202E5 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E407682215857EB004202E5 /* loginViewController.swift */; };
-		5E407685215857F3004202E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E407684215857F3004202E5 /* AppDelegate.swift */; };
 		5E40769E21585820004202E5 /* tabViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4076862158581D004202E5 /* tabViewController3.swift */; };
 		5E40769F21585820004202E5 /* articlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4076872158581D004202E5 /* articlesTableViewController.swift */; };
 		5E4076A021585820004202E5 /* basicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4076882158581D004202E5 /* basicViewController.swift */; };
@@ -42,6 +41,7 @@
 		5E4076B721585843004202E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4076B621585843004202E5 /* Main.storyboard */; };
 		5E4076B921585867004202E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4076B821585867004202E5 /* LaunchScreen.storyboard */; };
 		5E4076BB21585889004202E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E4076BA21585888004202E5 /* GoogleService-Info.plist */; };
+		5EA5739121585FF1000FF6CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA5739021585FF1000FF6CF /* AppDelegate.swift */; };
 		64A0732385BBD8A57FAA0CF6 /* Pods_Faith_In_God_ProgressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC3C2749AE99CD9F3E91510 /* Pods_Faith_In_God_ProgressTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +77,6 @@
 		5E407674215856FB004202E5 /* Faith_In_God_ProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Faith_In_God_ProgressUITests.swift; sourceTree = "<group>"; };
 		5E407676215856FB004202E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E407682215857EB004202E5 /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
-		5E407684215857F3004202E5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Faith In God Progress/Faith In God Progress/AppDelegate.swift"; sourceTree = "<group>"; };
 		5E4076862158581D004202E5 /* tabViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabViewController3.swift; sourceTree = "<group>"; };
 		5E4076872158581D004202E5 /* articlesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = articlesTableViewController.swift; sourceTree = "<group>"; };
 		5E4076882158581D004202E5 /* basicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = basicViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		5E4076B621585843004202E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5E4076B821585867004202E5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4076BA21585888004202E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EA5739021585FF1000FF6CF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D07571A1C1A4145C08CAC21 /* Pods-Faith In God ProgressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faith In God ProgressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faith In God ProgressTests/Pods-Faith In God ProgressTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9CC3C2749AE99CD9F3E91510 /* Pods_Faith_In_God_ProgressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faith_In_God_ProgressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1E2E18FFF59F005373BEC7 /* Pods-Faith In God ProgressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faith In God ProgressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Faith In God ProgressUITests/Pods-Faith In God ProgressUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		5E407650215856FA004202E5 /* Faith In God Progress */ = {
 			isa = PBXGroup;
 			children = (
-				5E407684215857F3004202E5 /* AppDelegate.swift */,
+				5EA5739021585FF1000FF6CF /* AppDelegate.swift */,
 				5E407682215857EB004202E5 /* loginViewController.swift */,
 				5E4076872158581D004202E5 /* articlesTableViewController.swift */,
 				5E4076972158581F004202E5 /* articlesViewController.swift */,
@@ -480,6 +480,7 @@
 				5E4076B521585820004202E5 /* servingDetailViewController.swift in Sources */,
 				5E40769F21585820004202E5 /* articlesTableViewController.swift in Sources */,
 				5E4076A521585820004202E5 /* tabViewController2.swift in Sources */,
+				5EA5739121585FF1000FF6CF /* AppDelegate.swift in Sources */,
 				5E4076AA21585820004202E5 /* EditProfile.swift in Sources */,
 				5E4076B321585820004202E5 /* boysGirlsViewController.swift in Sources */,
 				5E4076A121585820004202E5 /* editProfileViewController.swift in Sources */,
@@ -498,7 +499,6 @@
 				5E40765A215856FA004202E5 /* Faith_In_God_Progress.xcdatamodeld in Sources */,
 				5E4076AF21585820004202E5 /* articlesViewController.swift in Sources */,
 				5E4076B421585820004202E5 /* boysGirlsDetailViewController.swift in Sources */,
-				5E407685215857F3004202E5 /* AppDelegate.swift in Sources */,
 				5E4076A821585820004202E5 /* talentsDetailViewController.swift in Sources */,
 				5E4076B221585820004202E5 /* tabViewController4.swift in Sources */,
 				5E4076A221585820004202E5 /* Progress.swift in Sources */,
