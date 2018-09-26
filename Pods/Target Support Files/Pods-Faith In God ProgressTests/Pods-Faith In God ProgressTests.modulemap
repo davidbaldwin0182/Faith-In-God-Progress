@@ -1,0 +1,6 @@
+framework module Pods_Faith_In_God_ProgressTests {
+  umbrella header "Pods-Faith In God ProgressTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
